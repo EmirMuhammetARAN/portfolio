@@ -55,7 +55,7 @@ export default function Portfolio() {
                     </div>
 
                     <div className="flex gap-4 justify-center mb-8 flex-wrap">
-                        <a href="/Emir_Muhammet_Aran_CV.pdf" download className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl hover:from-green-700 hover:to-green-800 transition-all font-semibold">
+                        <a href="/Emir%20Muhammet%20Aran%20-%20CV.pdf" download className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl hover:from-green-700 hover:to-green-800 transition-all font-semibold">
                             <Download size={20} />
                             Download CV
                         </a>
