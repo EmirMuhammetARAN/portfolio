@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev -p 3001"
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lucide-react": "^0.555.0",
-    "next": "^16.0.5",
+    "next": "^16.1.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
