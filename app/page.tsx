@@ -112,7 +112,7 @@ export default function Portfolio() {
                                         <span className="text-sm text-gray-400">2022 - 2025</span>
                                     </div>
                                     <p className="text-gray-300">B.S. Computer Engineering</p>
-                                    <p className="text-sm text-gray-400">Sophomore GPA 3.70 • Freshman GPA 3.68 (Ranked 2nd)</p>
+                                    <p className="text-sm text-gray-400">Sophomore: GPA 3.70 | Freshman: GPA 3.68 (Ranked 2nd)</p>
                                 </div>
                             </div>
                         </div>
@@ -161,12 +161,12 @@ export default function Portfolio() {
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-4xl font-bold text-white text-center mb-4">Medical AI Projects</h2>
                     <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-                        Production-ready AI systems deployed on HuggingFace with comprehensive FDA compliance documentation
+                        Production-ready AI systems deployed on HuggingFace with comprehensive clinical validation
                     </p>
 
-                    <div className="grid md:grid-cols-2 gap-8 mb-8">
-                        {/* Brain Tumor Classification */}
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-2xl p-8 hover:border-blue-500/50 transition-all hover:shadow-2xl hover:shadow-blue-500/20">
+                    <div className="space-y-10">
+                        {/* Brain Tumor MRI Classification */}
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-2xl p-8">
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="p-3 bg-blue-600 rounded-xl">
                                     <Brain size={28} className="text-white" />
@@ -179,26 +179,46 @@ export default function Portfolio() {
                             <p className="text-gray-300 mb-4 leading-relaxed">
                                 Multi-class deep learning classifier achieving <span className="text-blue-400 font-semibold">99% accuracy</span> for brain tumor detection (Glioma, Meningioma, Pituitary, No Tumor). Transfer learning with EfficientNetB3 featuring Grad-CAM visualizations for clinical interpretability.
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
+                            <div className="flex gap-2 mb-4 flex-wrap">
                                 <span className="px-3 py-1 bg-blue-600 text-white rounded-lg text-xs font-semibold">EfficientNetB3</span>
                                 <span className="px-3 py-1 bg-blue-600 text-white rounded-lg text-xs font-semibold">99% Accuracy</span>
                                 <span className="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-lg text-xs">Transfer Learning</span>
                                 <span className="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-lg text-xs">Grad-CAM</span>
                             </div>
                             <div className="flex gap-3">
-                                <a href="https://huggingface.co/spaces/emiraran/brain-tumor-classification" target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all font-semibold text-sm">
-                                    <ExternalLink size={16} />
-                                    Live Demo
-                                </a>
-                                <a href="https://github.com/EmirMuhammetARAN/Brain-Tumor-MRI-Classification---99-ACC---Grad-CAM-" target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-slate-700 text-white rounded-lg hover:bg-slate-600 transition-all font-semibold text-sm">
-                                    <Github size={16} />
-                                    GitHub
-                                </a>
+                                <a href="https://huggingface.co/spaces/emiraran/brain-tumor-classification" target="_blank" className="text-blue-400 hover:text-blue-300 font-semibold text-sm">🔗 Live Demo</a>
+                                <a href="https://github.com/EmirMuhammetARAN/Brain-Tumor-MRI-Classification---99-ACC---Grad-CAM-" target="_blank" className="text-blue-400 hover:text-blue-300 font-semibold text-sm">GitHub →</a>
+                            </div>
+                        </div>
+
+                        {/* BraTS Brain Tumor Segmentation */}
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-2xl p-8">
+                            <div className="flex items-center gap-4 mb-4">
+                                <div className="p-3 bg-purple-600 rounded-xl">
+                                    <Brain size={28} className="text-white" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-white">BraTS 2020 Brain Tumor Segmentation</h3>
+                                    <span className="text-green-400 text-sm font-semibold">✓ DEPLOYED</span>
+                                </div>
+                            </div>
+                            <p className="text-gray-300 mb-4 leading-relaxed">
+                                3D medical image segmentation using U-Net with EfficientNetB0 achieving <span className="text-purple-400 font-semibold">90.34% Sensitivity</span> and <span className="text-purple-400 font-semibold">99.96% Specificity</span> for precise tumor region identification (Necrotic, Enhancing Tumor, Edema). Implements Focal Loss for class imbalance with interactive Gradio interface.
+                            </p>
+                            <div className="flex gap-2 mb-4 flex-wrap">
+                                <span className="px-3 py-1 bg-purple-600 text-white rounded-lg text-xs font-semibold">U-Net</span>
+                                <span className="px-3 py-1 bg-purple-600 text-white rounded-lg text-xs font-semibold">90.34% Sensitivity</span>
+                                <span className="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-lg text-xs">3D Segmentation</span>
+                                <span className="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-lg text-xs">Focal Loss</span>
+                            </div>
+                            <div className="flex gap-3">
+                                <a href="https://huggingface.co/spaces/emiraran/brats2020-brain-tumor-segmentation" target="_blank" className="text-purple-400 hover:text-purple-300 font-semibold text-sm">🔗 Live Demo</a>
+                                <a href="https://github.com/EmirMuhammetARAN/BraTS2020-Brain-Tumor-Segmentation" target="_blank" className="text-purple-400 hover:text-purple-300 font-semibold text-sm">GitHub →</a>
                             </div>
                         </div>
 
                         {/* Breast Cancer Detection */}
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-2xl p-8 hover:border-green-500/50 transition-all hover:shadow-2xl hover:shadow-green-500/20">
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-2xl p-8">
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="p-3 bg-green-600 rounded-xl">
                                     <Code size={28} className="text-white" />
@@ -211,7 +231,7 @@ export default function Portfolio() {
                             <p className="text-gray-300 mb-4 leading-relaxed">
                                 Deep learning system achieving <span className="text-green-400 font-semibold">91% sensitivity</span> (exceeds FDA screening benchmark of 90%) and <span className="text-green-400 font-semibold">AUC 0.94</span> for metastatic cancer detection. Comprehensive FDA compliance documentation and clinical validation framework.
                             </p>
-                            <div className="flex flex-wrap gap-2 mb-4">
+                            <div className="flex gap-2 mb-4 flex-wrap">
                                 <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">91% Sensitivity</span>
                                 <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">AUC 0.94</span>
                                 <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">CNN</span>
@@ -219,36 +239,35 @@ export default function Portfolio() {
                                 <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">FDA Compliant</span>
                             </div>
                             <div className="flex gap-3">
-                                <a href="https://huggingface.co/spaces/emiraran/histopathology-cancer-detection" target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-lg hover:from-green-700 hover:to-green-800 transition-all font-semibold text-sm">
-                                    <ExternalLink size={16} />
-                                    Live Demo
-                                </a>
-                                <a href="https://github.com/EmirMuhammetARAN/histopathology-cancer-detection-ai" target="_blank" className="flex items-center gap-2 px-5 py-2.5 bg-slate-700 text-white rounded-lg hover:bg-slate-600 transition-all font-semibold text-sm">
-                                    <Github size={16} />
-                                    GitHub
-                                </a>
+                                <a href="https://huggingface.co/spaces/emiraran/histopathology-cancer-detection" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">🔗 Live Demo</a>
+                                <a href="https://github.com/EmirMuhammetARAN/histopathology-cancer-detection-ai" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">GitHub →</a>
                             </div>
                         </div>
-                    </div>
 
-                    {/* In Development Project */}
-                    <div className="bg-slate-800/30 backdrop-blur-lg border border-orange-500/20 rounded-2xl p-6">
-                        <div className="flex items-center gap-3 mb-3">
-                            <div className="p-2 bg-orange-600 rounded-lg">
-                                <Brain size={24} className="text-white" />
+                        {/* Chest X-ray Disease Classification */}
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-2xl p-8">
+                            <div className="flex items-center gap-4 mb-4">
+                                <div className="p-3 bg-orange-600 rounded-xl">
+                                    <Code size={28} className="text-white" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-white">Chest X-ray Disease Classification</h3>
+                                    <span className="text-green-400 text-sm font-semibold">✓ OPEN SOURCE</span>
+                                </div>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold text-white">Lung Disease X-Ray Classifier</h3>
-                                <span className="text-orange-400 text-sm font-semibold">🚧 IN DEVELOPMENT</span>
+                            <p className="text-gray-300 mb-4 leading-relaxed">
+                                Multi-label deep learning system for 15-class thoracic disease detection achieving <span className="text-orange-400 font-semibold">0.784 mean AUC</span> with Test-Time Augmentation (TTA). Implements Focal Loss for class imbalance, balanced sampling with oversampling for rare diseases.
+                            </p>
+                            <div className="flex gap-2 mb-4 flex-wrap">
+                                <span className="px-3 py-1 bg-orange-600 text-white rounded-lg text-xs font-semibold">EfficientNetB0</span>
+                                <span className="px-3 py-1 bg-orange-600 text-white rounded-lg text-xs font-semibold">0.784 AUC</span>
+                                <span className="px-3 py-1 bg-orange-500/30 text-orange-300 rounded-lg text-xs">Multi-Label (15)</span>
+                                <span className="px-3 py-1 bg-orange-500/30 text-orange-300 rounded-lg text-xs">TTA</span>
                             </div>
-                        </div>
-                        <p className="text-gray-400 text-sm mb-3">
-                            Multi-class chest X-ray classification for pneumonia, COVID-19, and tuberculosis detection. Implementing ensemble methods with ResNet, EfficientNet, and Vision Transformer architectures.
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                            <span className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-lg text-xs">Ensemble Learning</span>
-                            <span className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-lg text-xs">Vision Transformer</span>
-                            <span className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-lg text-xs">Grad-CAM</span>
+                            <div className="flex gap-3">
+                                <a href="https://huggingface.co/spaces/emiraran/chest-xray-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">🔗 Live Demo</a>
+                                <a href="https://github.com/EmirMuhammetARAN/chest-xray-disease-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">GitHub →</a>
+                            </div>
                         </div>
                     </div>
                 </div>
