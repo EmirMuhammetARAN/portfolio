@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { Mail, Phone, Linkedin, Github, MapPin, Brain, Code, Award, ExternalLink, Download, ChevronDown, Briefcase, GraduationCap, Trophy } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, MapPin, Brain, Code, Award, ExternalLink, Download, ChevronDown, Briefcase, GraduationCap, Trophy, Microscope, Activity, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Portfolio() {
@@ -49,8 +49,8 @@ export default function Portfolio() {
                             <div className="text-sm text-gray-300">GPA (Ranked 2nd)</div>
                         </div>
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-yellow-500/20 rounded-xl p-4">
-                            <div className="text-3xl font-bold text-yellow-400">3x</div>
-                            <div className="text-sm text-gray-300">Game Jam Winner</div>
+                            <div className="text-3xl font-bold text-yellow-400">Top 39%</div>
+                            <div className="text-sm text-gray-300">Vesuvius Kaggle Challenge</div>
                         </div>
                     </div>
 
@@ -187,7 +187,7 @@ export default function Portfolio() {
                             </div>
                             <div className="flex gap-3">
                                 <a href="https://huggingface.co/spaces/emiraran/brain-tumor-classification" target="_blank" className="text-blue-400 hover:text-blue-300 font-semibold text-sm">🔗 Live Demo</a>
-                                <a href="https://github.com/EmirMuhammetARAN/Brain-Tumor-MRI-Classification---99-ACC---Grad-CAM-" target="_blank" className="text-blue-400 hover:text-blue-300 font-semibold text-sm">GitHub →</a>
+                                <a href="https://github.com/EmirMuhammetARAN/Brain-Tumor-MRI-Classification---99-ACC---Grad-CAM-" target="_blank" className="text-blue-400 hover:text-blue-300 font-semibold text-sm">💻 GitHub →</a>
                             </div>
                         </div>
 
@@ -213,7 +213,7 @@ export default function Portfolio() {
                             </div>
                             <div className="flex gap-3">
                                 <a href="https://huggingface.co/spaces/emiraran/brats2020-brain-tumor-segmentation" target="_blank" className="text-purple-400 hover:text-purple-300 font-semibold text-sm">🔗 Live Demo</a>
-                                <a href="https://github.com/EmirMuhammetARAN/BraTS2020-Brain-Tumor-Segmentation" target="_blank" className="text-purple-400 hover:text-purple-300 font-semibold text-sm">GitHub →</a>
+                                <a href="https://github.com/EmirMuhammetARAN/BraTS2020-Brain-Tumor-Segmentation" target="_blank" className="text-purple-400 hover:text-purple-300 font-semibold text-sm">💻 GitHub →</a>
                             </div>
                         </div>
 
@@ -221,26 +221,27 @@ export default function Portfolio() {
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-2xl p-8">
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="p-3 bg-green-600 rounded-xl">
-                                    <Code size={28} className="text-white" />
+                                    <Microscope size={28} className="text-white" />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white">Breast Cancer Histopathology</h3>
+                                    <h3 className="text-2xl font-bold text-white">Breast Cancer Histopathology (PCam)</h3>
                                     <span className="text-green-400 text-sm font-semibold">✓ DEPLOYED</span>
                                 </div>
                             </div>
                             <p className="text-gray-300 mb-4 leading-relaxed">
-                                Deep learning system achieving <span className="text-green-400 font-semibold">91% sensitivity</span> (exceeds FDA screening benchmark of 90%) and <span className="text-green-400 font-semibold">AUC 0.94</span> for metastatic cancer detection. Comprehensive FDA compliance documentation and clinical validation framework.
+                                Custom lightweight CNN from scratch achieving <span className="text-green-400 font-semibold">91.5% sensitivity</span> (exceeds FDA/EMA screening benchmark) and <span className="text-green-400 font-semibold">AUC 0.94</span>. Implemented Focal Loss with optimized clinical threshold prioritizing Recall over Accuracy—catching missed diagnoses. Published detailed analysis on blind augmentation pitfalls and architecture design for medical imaging.
                             </p>
                             <div className="flex gap-2 mb-4 flex-wrap">
-                                <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">91% Sensitivity</span>
-                                <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">AUC 0.94</span>
-                                <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">CNN</span>
+                                <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">Custom CNN</span>
+                                <span className="px-3 py-1 bg-green-600 text-white rounded-lg text-xs font-semibold">91.5% Sensitivity</span>
                                 <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">Focal Loss</span>
-                                <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">FDA Compliant</span>
+                                <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">FDA/EMA Compliant</span>
+                                <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-lg text-xs">Medium Article</span>
                             </div>
                             <div className="flex gap-3">
                                 <a href="https://huggingface.co/spaces/emiraran/histopathology-cancer-detection" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">🔗 Live Demo</a>
-                                <a href="https://github.com/EmirMuhammetARAN/histopathology-cancer-detection-ai" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">GitHub →</a>
+                                <a href="https://github.com/EmirMuhammetARAN/histopathology-cancer-detection-ai" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">💻 GitHub →</a>
+                                <a href="https://lnkd.in/dPQF-CHe" target="_blank" className="text-green-400 hover:text-green-300 font-semibold text-sm">📰 Article →</a>
                             </div>
                         </div>
 
@@ -248,7 +249,7 @@ export default function Portfolio() {
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-2xl p-8">
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="p-3 bg-orange-600 rounded-xl">
-                                    <Code size={28} className="text-white" />
+                                    <Activity size={28} className="text-white" />
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold text-white">Chest X-ray Disease Classification</h3>
@@ -266,7 +267,33 @@ export default function Portfolio() {
                             </div>
                             <div className="flex gap-3">
                                 <a href="https://huggingface.co/spaces/emiraran/chest-xray-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">🔗 Live Demo</a>
-                                <a href="https://github.com/EmirMuhammetARAN/chest-xray-disease-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">GitHub →</a>
+                                <a href="https://github.com/EmirMuhammetARAN/chest-xray-disease-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">💻 GitHub →</a>
+                            </div>
+                        </div>
+
+                        {/* Bidirectional Age Transformation */}
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-pink-500/20 rounded-2xl p-8">
+                            <div className="flex items-center gap-4 mb-4">
+                                <div className="p-3 bg-pink-600 rounded-xl">
+                                    <Sparkles size={28} className="text-white" />
+                                </div>
+                                <div>
+                                    <h3 className="text-2xl font-bold text-white">Bidirectional Age Transformation</h3>
+                                    <span className="text-yellow-400 text-sm font-semibold">🚀 IN DEVELOPMENT</span>
+                                </div>
+                            </div>
+                            <p className="text-gray-300 mb-4 leading-relaxed">
+                                Advanced generative AI system for bidirectional age synthesis using modular PyTorch architecture. Implements LDM (Latent Diffusion Model) + CycleGAN ensemble with img2img pipeline enabling reversible age transformation: young→old (age progression) and old→young (age regression). Fully modular design for production-ready deployment.
+                            </p>
+                            <div className="flex gap-2 mb-4 flex-wrap">
+                                <span className="px-3 py-1 bg-pink-600 text-white rounded-lg text-xs font-semibold">PyTorch</span>
+                                <span className="px-3 py-1 bg-pink-600 text-white rounded-lg text-xs font-semibold">LDM + CycleGAN</span>
+                                <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">Bidirectional</span>
+                                <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">img2img</span>
+                                <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">Modular</span>
+                            </div>
+                            <div className="flex gap-3">
+                                <a href="#" className="text-pink-400 hover:text-pink-300 font-semibold text-sm text-opacity-50 cursor-default">🔗 Coming Soon</a>
                             </div>
                         </div>
                     </div>
@@ -283,9 +310,10 @@ export default function Portfolio() {
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
-                            <h3 className="text-lg font-bold text-purple-300 mb-3">Computer Vision</h3>
+                            <h3 className="text-lg font-bold text-purple-300 mb-3">Computer Vision & 3D Imaging</h3>
                             <ul className="space-y-2 text-sm text-gray-400">
-                                <li>• YOLO/Faster R-CNN detection</li>
+                                <li>• 3D/2.5D volumetric image processing</li>
+                                <li>• EfficientNet/ResNet ensemble models</li>
                                 <li>• Face recognition (OpenCV, Dlib)</li>
                                 <li>• MNIST/EMNIST classification</li>
                                 <li>• Transfer learning (ResNet, VGG16)</li>
@@ -293,11 +321,13 @@ export default function Portfolio() {
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-6">
-                            <h3 className="text-lg font-bold text-blue-300 mb-3">Natural Language Processing</h3>
+                            <h3 className="text-lg font-bold text-blue-300 mb-3">Natural Language Processing & RAG</h3>
                             <ul className="space-y-2 text-sm text-gray-400">
                                 <li>• RNN/LSTM sequence models</li>
                                 <li>• Transformer-based translation</li>
                                 <li>• Attention mechanisms</li>
+                                <li>• Retrieval Augmented Generation (RAG)</li>
+                                <li>• Embedding models & Vector DBs</li>
                                 <li>• Text classification systems</li>
                             </ul>
                         </div>
@@ -340,12 +370,12 @@ export default function Portfolio() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-6">
                             <h3 className="text-xl font-bold text-blue-300 mb-4">AI/ML Frameworks</h3>
-                            <p className="text-sm text-gray-400">PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, XGBoost</p>
+                            <p className="text-sm text-gray-400">PyTorch, TensorFlow/Keras, Scikit-learn, OpenCV, XGBoost, HuggingFace Transformers, LLMs</p>
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-xl p-6">
                             <h3 className="text-xl font-bold text-green-300 mb-4">Medical AI Specialization</h3>
-                            <p className="text-sm text-gray-400">FDA Compliance, Clinical Validation, Medical Image Analysis, Grad-CAM Explainability</p>
+                            <p className="text-sm text-gray-400">FDA Compliance, 3D/2.5D volumetric imaging, Ensemble transfer learning, Clinical Validation, Medical Image Analysis, Grad-CAM Explainability</p>
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
@@ -355,7 +385,7 @@ export default function Portfolio() {
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-xl p-6">
                             <h3 className="text-xl font-bold text-orange-300 mb-4">Data Science & Analysis</h3>
-                            <p className="text-sm text-gray-400">Pandas, NumPy, Matplotlib, Feature Engineering, Statistical Analysis</p>
+                            <p className="text-sm text-gray-400">Pandas, NumPy, Matplotlib, Feature Engineering, Vector Embeddings, Statistical Analysis, LLM Fine-tuning</p>
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-yellow-500/20 rounded-xl p-6">
@@ -387,31 +417,32 @@ export default function Portfolio() {
                             </div>
                         </div>
 
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-gray-500/20 rounded-xl p-6">
-                            <div className="flex items-start gap-4">
-                                <Trophy className="text-gray-400 flex-shrink-0" size={32} />
-                                <div>
-                                    <h3 className="text-xl font-bold text-gray-300 mb-2">🥈 Pura Game Jam 2025 - 2nd Place</h3>
-                                    <p className="text-sm text-gray-400">Collaborative problem-solving and rapid prototyping in competitive environment</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-xl p-6">
-                            <div className="flex items-start gap-4">
-                                <Trophy className="text-orange-400 flex-shrink-0" size={32} />
-                                <div>
-                                    <h3 className="text-xl font-bold text-orange-300 mb-2">🏅 Ankü Game Jam 2025 - 5th Place</h3>
-                                    <p className="text-sm text-gray-400">Demonstrated creativity and technical execution in game development</p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-6">
                             <div className="flex items-start gap-4">
-                                <Award className="text-blue-400 flex-shrink-0" size={32} />
+                                <Trophy className="text-blue-400 flex-shrink-0" size={32} />
                                 <div>
-                                    <h3 className="text-xl font-bold text-blue-300 mb-2">Board Member - MEDCODES & CYBERMEDU</h3>
+                                    <h3 className="text-xl font-bold text-blue-300 mb-2">🏥 ACUHIT Healthcare Hackathon 2026 - 10th Place</h3>
+                                    <p className="text-sm text-gray-400">Sole AI/ML developer: Built full-stack healthcare pre-analysis tool with NLP (Sentence Transformer + TF-IDF ensemble), processed 270K+ patient records. Won ₺12,000 prize. Worked with real clinical data from Acıbadem Healthcare Group.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-cyan-500/20 rounded-xl p-6">
+                            <div className="flex items-start gap-4">
+                                <Trophy className="text-cyan-400 flex-shrink-0" size={32} />
+                                <div>
+                                    <h3 className="text-xl font-bold text-cyan-300 mb-2">🏆 Vesuvius Challenge: Surface Detection - Top 39%</h3>
+                                    <p className="text-sm text-gray-400">Solo Kaggle competition: Ranked 549/1,427. Applied medical AI expertise to 3D volumetric surface detection. Built EfficientNet/ResNet ensemble to overcome OOM constraints with 2.5D approach. Optimized model stacking for 3D medical image processing.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
+                            <div className="flex items-start gap-4">
+                                <Award className="text-purple-400 flex-shrink-0" size={32} />
+                                <div>
+                                    <h3 className="text-xl font-bold text-purple-300 mb-2">Board Member - MEDCODES & CYBERMEDU</h3>
                                     <p className="text-sm text-gray-400">Leading technical training sessions and cybersecurity education initiatives (2023-Present)</p>
                                 </div>
                             </div>
