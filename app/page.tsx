@@ -31,17 +31,17 @@ export default function Portfolio() {
                         Medical AI Developer | Computer Engineering Student
                     </p>
                     <p className="text-lg text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                        Developing FDA-compliant medical AI systems with <span className="text-blue-400 font-semibold">99% accuracy</span> in brain tumor detection and <span className="text-green-400 font-semibold">91% sensitivity</span> in cancer histopathology. Specialized in deep learning for healthcare, transfer learning, and clinical deployment.
+                        Medical AI researcher focused on cell imaging and biological aging simulation. Building generative models for label-free microscopy analysis with clinical deployment potential.
                     </p>
 
                     {/* Quick Stats */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-8">
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-4">
-                            <div className="text-3xl font-bold text-blue-400">2+</div>
+                            <div className="text-3xl font-bold text-blue-400">4</div>
                             <div className="text-sm text-gray-300">Deployed AI Systems</div>
                         </div>
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-xl p-4">
-                            <div className="text-3xl font-bold text-green-400">20+</div>
+                            <div className="text-3xl font-bold text-green-400">46</div>
                             <div className="text-sm text-gray-300">GitHub Projects</div>
                         </div>
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-4">
@@ -70,6 +70,10 @@ export default function Portfolio() {
                         <a href="https://github.com/EmirMuhammetARAN" target="_blank" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
                             <Github size={20} />
                             GitHub
+                        </a>
+                        <a href="https://medium.com/@emirmaran22" target="_blank" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
+                            <span className="text-xl">📰</span>
+                            Medium
                         </a>
                         <a href="tel:+905452019276" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
                             <Phone size={20} />
@@ -103,7 +107,7 @@ export default function Portfolio() {
                                         <span className="text-sm text-gray-400">2025 - 2027</span>
                                     </div>
                                     <p className="text-gray-300">B.S. Computer Engineering</p>
-                                    <p className="text-sm text-gray-400">Third Year • GPA 3.52 • Currently Enrolled</p>
+                                    <p className="text-sm text-gray-400">Transferred to Gazi University (merit-based, 50% scholarship at prior institution) • GPA 3.52</p>
                                 </div>
 
                                 <div>
@@ -135,19 +139,15 @@ export default function Portfolio() {
                                 <ul className="space-y-2 text-sm text-gray-400 mt-3">
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-400 mt-1">•</span>
-                                        <span>Developed cross-platform mobile apps with Flutter/Dart</span>
+                                        <span>Built real-time IoT monitoring dashboard integrating ESP32 sensors with Firebase cloud database</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-400 mt-1">•</span>
-                                        <span>Built real-time chat application (3300+ lines, Firebase)</span>
+                                        <span>Developed secure authentication system with role-based access control across 3 mobile applications</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-green-400 mt-1">•</span>
-                                        <span>Designed IoT monitoring with ESP32 integration</span>
-                                    </li>
-                                    <li className="flex items-start gap-2">
-                                        <span className="text-green-400 mt-1">•</span>
-                                        <span>Implemented secure authentication & role-based access</span>
+                                        <span>Implemented cross-platform Flutter applications; shipped to internal users at TOBB Garaj</span>
                                     </li>
                                 </ul>
                             </div>
@@ -264,10 +264,12 @@ export default function Portfolio() {
                                 <span className="px-3 py-1 bg-orange-600 text-white rounded-lg text-xs font-semibold">0.784 AUC</span>
                                 <span className="px-3 py-1 bg-orange-500/30 text-orange-300 rounded-lg text-xs">Multi-Label (15)</span>
                                 <span className="px-3 py-1 bg-orange-500/30 text-orange-300 rounded-lg text-xs">TTA</span>
+                                <span className="px-3 py-1 bg-orange-500/30 text-orange-300 rounded-lg text-xs">Medium Article</span>
                             </div>
                             <div className="flex gap-3">
                                 <a href="https://huggingface.co/spaces/emiraran/chest-xray-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">🔗 Live Demo</a>
                                 <a href="https://github.com/EmirMuhammetARAN/chest-xray-disease-classification" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">💻 GitHub →</a>
+                                <a href="https://medium.com/@emirmaran22/stop-blaming-the-model-why-your-medical-ai-is-just-a-pre-schooler-trapped-in-dirty-data-e0e5b95c3c1f" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">📰 Article →</a>
                             </div>
                         </div>
 
@@ -278,22 +280,24 @@ export default function Portfolio() {
                                     <Sparkles size={28} className="text-white" />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white">Bidirectional Age Transformation</h3>
-                                    <span className="text-yellow-400 text-sm font-semibold">🚀 IN DEVELOPMENT</span>
+                                    <h3 className="text-2xl font-bold text-white">MSC Aging Simulation via Label-Free Microscopy</h3>
+                                    <span className="text-yellow-400 text-sm font-semibold">🚀 Ongoing Research</span>
                                 </div>
                             </div>
                             <p className="text-gray-300 mb-4 leading-relaxed">
-                                Advanced generative AI system for bidirectional age synthesis using modular PyTorch architecture. Implements LDM (Latent Diffusion Model) + CycleGAN ensemble with img2img pipeline enabling reversible age transformation: young→old (age progression) and old→young (age regression). Fully modular design for production-ready deployment.
+                                Generative model for biological age reversal in label-free brightfield microscopy images of Mesenchymal Stem Cells. LDM + LoRA architecture performing img2img translation from senescent to rejuvenated cell morphology.
                             </p>
                             <div className="flex gap-2 mb-4 flex-wrap">
                                 <span className="px-3 py-1 bg-pink-600 text-white rounded-lg text-xs font-semibold">PyTorch</span>
-                                <span className="px-3 py-1 bg-pink-600 text-white rounded-lg text-xs font-semibold">LDM + CycleGAN</span>
+                                <span className="px-3 py-1 bg-pink-600 text-white rounded-lg text-xs font-semibold">LDM + LoRA</span>
                                 <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">Bidirectional</span>
                                 <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">img2img</span>
                                 <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">Modular</span>
+                                <span className="px-3 py-1 bg-pink-500/30 text-pink-300 rounded-lg text-xs">Medium Article</span>
                             </div>
                             <div className="flex gap-3">
                                 <a href="#" className="text-pink-400 hover:text-pink-300 font-semibold text-sm text-opacity-50 cursor-default">🔗 Coming Soon</a>
+                                <a href="https://medium.com/@emirmaran22/architectural-trade-offs-in-medical-image-translation-cyclegan-vs-latent-diffusion-20624437aee2" target="_blank" className="text-pink-400 hover:text-pink-300 font-semibold text-sm">📰 Article →</a>
                             </div>
                         </div>
                     </div>
@@ -305,50 +309,36 @@ export default function Portfolio() {
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-4xl font-bold text-white text-center mb-4">Technical Projects</h2>
                     <p className="text-center text-gray-400 mb-12">
-                        20+ repositories covering computer vision, NLP, IoT, and mobile development
+                        46 repositories covering computer vision, NLP, IoT, and mobile development
                     </p>
-
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
-                            <h3 className="text-lg font-bold text-purple-300 mb-3">Computer Vision & 3D Imaging</h3>
+                    <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-6">
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-6">
+                            <h3 className="text-lg font-bold text-blue-300 mb-3">Clinical NLP & Sequence</h3>
                             <ul className="space-y-2 text-sm text-gray-400">
-                                <li>• 3D/2.5D volumetric image processing</li>
-                                <li>• EfficientNet/ResNet ensemble models</li>
-                                <li>• Face recognition (OpenCV, Dlib)</li>
-                                <li>• MNIST/EMNIST classification</li>
-                                <li>• Transfer learning (ResNet, VGG16)</li>
+                                <li>• Unstructured clinical text (BioBERT)</li>
+                                <li>• Automatic subtitle translation</li>
+                                <li>• Transformer seq2seq models</li>
+                                <li>• Attention mechanisms</li>
                             </ul>
                         </div>
 
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl p-6">
-                            <h3 className="text-lg font-bold text-blue-300 mb-3">Natural Language Processing & RAG</h3>
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
+                            <h3 className="text-lg font-bold text-purple-300 mb-3">Computer Vision & Infrastructure</h3>
                             <ul className="space-y-2 text-sm text-gray-400">
-                                <li>• RNN/LSTM sequence models</li>
-                                <li>• Transformer-based translation</li>
-                                <li>• Attention mechanisms</li>
-                                <li>• Retrieval Augmented Generation (RAG)</li>
-                                <li>• Embedding models & Vector DBs</li>
-                                <li>• Text classification systems</li>
+                                <li>• High-throughput DICOM pipelines</li>
+                                <li>• Real-time face recognition</li>
+                                <li>• OpenCV + MTCNN pipelines</li>
+                                <li>• Scalable model deployment</li>
                             </ul>
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-green-500/20 rounded-xl p-6">
                             <h3 className="text-lg font-bold text-green-300 mb-3">Predictive Analytics</h3>
                             <ul className="space-y-2 text-sm text-gray-400">
-                                <li>• Time series (FBProphet Bitcoin)</li>
-                                <li>• Random Forest, XGBoost</li>
-                                <li>• Regression models</li>
-                                <li>• Feature engineering</li>
-                            </ul>
-                        </div>
-
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-xl p-6">
-                            <h3 className="text-lg font-bold text-orange-300 mb-3">Mobile & IoT</h3>
-                            <ul className="space-y-2 text-sm text-gray-400">
-                                <li>• Flutter cross-platform apps</li>
-                                <li>• Firebase real-time integration</li>
-                                <li>• ESP32/Arduino systems</li>
-                                <li>• Cloud database connectivity</li>
+                                <li>• Ensemble methods (Random Forest)</li>
+                                <li>• Gradient boosting (XGBoost)</li>
+                                <li>• Time series forecasting (FBProphet)</li>
+                                <li>• Optimization tasks</li>
                             </ul>
                         </div>
                     </div>
@@ -356,7 +346,7 @@ export default function Portfolio() {
                     <div className="text-center mt-8">
                         <a href="https://github.com/EmirMuhammetARAN?tab=repositories" target="_blank" className="inline-flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
                             <Github size={20} />
-                            View All 20+ Projects on GitHub
+                            View All 46 Projects on GitHub
                         </a>
                     </div>
                 </div>
@@ -380,7 +370,7 @@ export default function Portfolio() {
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-6">
                             <h3 className="text-xl font-bold text-purple-300 mb-4">Programming Languages</h3>
-                            <p className="text-sm text-gray-400">Python, C, C#, Java, Dart, LEGv8 Assembly, Bash</p>
+                            <p className="text-sm text-gray-400">Python, C, C#, Bash</p>
                         </div>
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-orange-500/20 rounded-xl p-6">
@@ -390,12 +380,7 @@ export default function Portfolio() {
 
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-yellow-500/20 rounded-xl p-6">
                             <h3 className="text-xl font-bold text-yellow-300 mb-4">Development & Deployment</h3>
-                            <p className="text-sm text-gray-400">Flutter, Firebase, HuggingFace Spaces, REST APIs, Git, Linux, Docker</p>
-                        </div>
-
-                        <div className="bg-slate-800/50 backdrop-blur-lg border border-pink-500/20 rounded-xl p-6">
-                            <h3 className="text-xl font-bold text-pink-300 mb-4">Hardware & Game Dev</h3>
-                            <p className="text-sm text-gray-400">Arduino, ESP32, IoT Systems, Unity, Unreal Engine</p>
+                            <p className="text-sm text-gray-400">HuggingFace Spaces, REST APIs, Git, Linux, Docker, FastAPI, Flask</p>
                         </div>
                     </div>
                 </div>
@@ -422,8 +407,8 @@ export default function Portfolio() {
                             <div className="flex items-start gap-4">
                                 <Trophy className="text-blue-400 flex-shrink-0" size={32} />
                                 <div>
-                                    <h3 className="text-xl font-bold text-blue-300 mb-2">🏥 ACUHIT Healthcare Hackathon 2026 - 10th Place</h3>
-                                    <p className="text-sm text-gray-400">Sole AI/ML developer: Built full-stack healthcare pre-analysis tool with NLP (Sentence Transformer + TF-IDF ensemble), processed 270K+ patient records. Won ₺12,000 prize. Worked with real clinical data from Acıbadem Healthcare Group.</p>
+                                    <h3 className="text-xl font-bold text-blue-300 mb-2">🏥 ACUHIT Healthcare Hackathon 2026</h3>
+                                    <p className="text-sm text-gray-400">Sole AI/ML developer; architected full-stack clinical NLP system (Sentence Transformer + TF-IDF ensemble) with Flask API and React frontend.</p>
                                 </div>
                             </div>
                         </div>
@@ -432,8 +417,8 @@ export default function Portfolio() {
                             <div className="flex items-start gap-4">
                                 <Trophy className="text-cyan-400 flex-shrink-0" size={32} />
                                 <div>
-                                    <h3 className="text-xl font-bold text-cyan-300 mb-2">🏆 Vesuvius Challenge: Surface Detection - Top 39%</h3>
-                                    <p className="text-sm text-gray-400">Solo Kaggle competition: Ranked 549/1,427. Applied medical AI expertise to 3D volumetric surface detection. Built EfficientNet/ResNet ensemble to overcome OOM constraints with 2.5D approach. Optimized model stacking for 3D medical image processing.</p>
+                                    <h3 className="text-xl font-bold text-cyan-300 mb-2">🏆 Vesuvius Challenge — Top 39%</h3>
+                                    <p className="text-sm text-gray-400">3D volumetric segmentation of ancient carbonized scrolls</p>
                                 </div>
                             </div>
                         </div>
@@ -442,8 +427,18 @@ export default function Portfolio() {
                             <div className="flex items-start gap-4">
                                 <Award className="text-purple-400 flex-shrink-0" size={32} />
                                 <div>
-                                    <h3 className="text-xl font-bold text-purple-300 mb-2">Board Member - MEDCODES & CYBERMEDU</h3>
-                                    <p className="text-sm text-gray-400">Leading technical training sessions and cybersecurity education initiatives (2023-Present)</p>
+                                    <h3 className="text-xl font-bold text-purple-300 mb-2">Board Member - MEDCODES</h3>
+                                    <p className="text-sm text-gray-400">Leading technical training sessions for medical engineering students (2024-Present)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="bg-slate-800/50 backdrop-blur-lg border border-indigo-500/20 rounded-xl p-6">
+                            <div className="flex items-start gap-4">
+                                <Award className="text-indigo-400 flex-shrink-0" size={32} />
+                                <div>
+                                    <h3 className="text-xl font-bold text-indigo-300 mb-2">Board Member - CYBERMEDU</h3>
+                                    <p className="text-sm text-gray-400">Organizing cybersecurity and medical technology education initiatives (2023-Present)</p>
                                 </div>
                             </div>
                         </div>
@@ -468,20 +463,24 @@ export default function Portfolio() {
                             +90 545 201 92 76
                         </a>
                     </div>
-                    <div className="flex gap-4 justify-center">
+                    <div className="flex flex-wrap gap-4 justify-center">
                         <a href="https://linkedin.com/in/emiraran" target="_blank" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
                             <Linkedin size={20} />
                             LinkedIn
                         </a>
                         <a href="https://github.com/EmirMuhammetARAN" target="_blank" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
                             <Github size={20} />
-                            GitHub (20+ Repos)
+                            GitHub (46 Repos)
+                        </a>
+                        <a href="https://medium.com/@emirmaran22" target="_blank" className="flex items-center gap-2 px-6 py-3 bg-slate-700 text-white rounded-xl hover:bg-slate-600 transition-all font-semibold">
+                            <span className="text-xl">📰</span>
+                            Medium
                         </a>
                     </div>
 
                     <div className="mt-8 p-6 bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-xl">
                         <p className="text-gray-300 mb-2">
-                            <strong className="text-blue-300">Languages:</strong> English (B2-C1 Professional) | Turkish (Native)
+                            <strong className="text-blue-300">Languages:</strong> English
                         </p>
                         <p className="text-gray-400 text-sm flex items-center justify-center gap-2">
                             <MapPin size={16} />
