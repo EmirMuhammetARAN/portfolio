@@ -45,7 +45,7 @@ export default function Portfolio() {
                             <div className="text-sm text-gray-300">GitHub Projects</div>
                         </div>
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-purple-500/20 rounded-xl p-4">
-                            <div className="text-3xl font-bold text-purple-400">3.70</div>
+                            <div className="text-3xl font-bold text-purple-400">3.52</div>
                             <div className="text-sm text-gray-300">GPA (Ranked 2nd)</div>
                         </div>
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-yellow-500/20 rounded-xl p-4">
@@ -106,7 +106,7 @@ export default function Portfolio() {
                                         <h4 className="text-lg font-semibold text-blue-300">Gazi University</h4>
                                         <span className="text-sm text-gray-400">Expected 2027</span>
                                     </div>
-                                    <p className="text-gray-300">B.S. Computer Engineering</p>
+                                    <p className="text-gray-300">B.S. Computer Engineering <span className="font-semibold text-purple-300 ml-2">| GPA: 3.52</span></p>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ export default function Portfolio() {
                                 </div>
                             </div>
                             <p className="text-gray-300 mb-4 leading-relaxed">
-                                Advanced multiplexed immunofluorescence (PhenoCycler/CODEX 41-channel) analysis of the human pancreas to decode the cellular architecture of aging. Unveiled cell-type specific "Bystander Senescence" mechanisms where Alpha cells act as toxic SASP-secreting hubs. Discovered the "Immune Exclusion" barricade and HMGB1 nuclear leakage driving macrophage chemotaxis, actively rewriting the narrative of age-related tissue entropy.
+                                Advanced multiplexed immunofluorescence (PhenoCycler/CODEX 38-channel) analysis of the human pancreas to decode the cellular architecture of aging. Unveiled cell-type specific "Bystander Senescence" mechanisms where Alpha cells act as toxic SASP-secreting hubs. Discovered the "Immune Exclusion" barricade and HMGB1 nuclear leakage driving macrophage chemotaxis, actively rewriting the narrative of age-related tissue entropy.
                             </p>
                             <div className="flex gap-2 mb-4 flex-wrap">
                                 <span className="px-3 py-1 bg-orange-600 text-white rounded-lg text-xs font-semibold">Spatial Analysis</span>
@@ -204,7 +204,7 @@ export default function Portfolio() {
                                 <span className="px-3 py-1 bg-yellow-500/30 text-yellow-300 rounded-lg text-xs font-semibold">🔄 ONGOING</span>
                             </div>
                             <div className="flex gap-3 items-center flex-wrap">
-                                <a href="https://medium.com/@emirmaran22/unveiling-the-hidden-architecture-of-aging-tissue-entropy-senotypes-and-the-igg-paradox-7f9d33261602" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">📰 Read Article →</a>
+                                <a href="https://medium.com/@emirmaran22/unveiling-the-hidden-architecture-of-aging-tissue-entropy-senotypes-and-the-igg-paradox-7f9d33261602" target="_blank" className="text-orange-400 hover:text-orange-300 font-semibold text-sm">📰 Article</a>
                             </div>
                         </div>
 
@@ -296,7 +296,7 @@ export default function Portfolio() {
                                     <Microscope size={28} className="text-white" />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white">Breast Cancer Histopathology (PCam)</h3>
+                                    <h3 className="text-2xl font-bold text-white">Breast Cancer Histopathology Detection</h3>
                                     <span className="text-green-400 text-sm font-semibold">✓ DEPLOYED</span>
                                 </div>
                             </div>
