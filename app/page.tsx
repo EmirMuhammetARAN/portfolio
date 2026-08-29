@@ -148,23 +148,23 @@ export default function Portfolio() {
                                         <h4 className="text-lg font-semibold text-green-300">Artificial Intelligence Intern</h4>
                                         <p className="text-gray-300">Sisoft Healthcare Information Systems</p>
                                     </div>
-                                    <span className="text-sm text-gray-400">Aug 2026 - 1 mo</span>
+                                    <span className="text-sm text-gray-400">Aug 2026</span>
                                 </div>
                                 <ul className="space-y-2 text-sm text-gray-400 mt-3">
                                     <li className="flex items-start gap-2">
-                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span className="text-green-400 mt-1">•</span>
                                         <span>Designed and developed a Corporate AI Assistant (Agentic RAG System) using Large Language Models (LLM) and LangChain</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span className="text-green-400 mt-1">•</span>
                                         <span>Integrated YTÜ Modern-BERT-TR embedding model with FAISS vector database for accurate semantic search on corporate reports</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span className="text-green-400 mt-1">•</span>
                                         <span>Engineered autonomous Tool Calling capabilities, allowing the AI to logically route queries to external tools</span>
                                     </li>
                                     <li className="flex items-start gap-2">
-                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span className="text-green-400 mt-1">•</span>
                                         <span>Conducted extensive literature reviews via Gemini Deep Research, compiling 30+ pages on RAG and LLMs</span>
                                     </li>
                                 </ul>
