@@ -92,7 +92,7 @@ export default function Portfolio() {
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-4xl font-bold text-white text-center mb-12">Professional Background</h2>
 
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="flex flex-col gap-8">
                         {/* Education */}
                         <div className="bg-slate-800/50 backdrop-blur-lg border border-blue-500/20 rounded-2xl p-8">
                             <div className="flex items-center gap-3 mb-6">
