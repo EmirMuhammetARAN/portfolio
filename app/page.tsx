@@ -121,7 +121,7 @@ export default function Portfolio() {
                             <div className="mb-8">
                                 <div className="flex justify-between items-start mb-2">
                                     <div>
-                                        <h4 className="text-lg font-semibold text-green-300">Developer, ARCx</h4>
+                                        <h4 className="text-lg font-semibold text-green-300">AI/ML Researcher</h4>
                                         <p className="text-gray-300">Applied Research & Community | Solvien</p>
                                     </div>
                                     <span className="text-sm text-gray-400">Present</span>
@@ -142,13 +142,40 @@ export default function Portfolio() {
                                 </ul>
                             </div>
 
+                            <div className="mb-8">
+                                <div className="flex justify-between items-start mb-2">
+                                    <div>
+                                        <h4 className="text-lg font-semibold text-green-300">Artificial Intelligence Intern</h4>
+                                        <p className="text-gray-300">Sisoft Healthcare Information Systems</p>
+                                    </div>
+                                    <span className="text-sm text-gray-400">Aug 2026 - 1 mo</span>
+                                </div>
+                                <ul className="space-y-2 text-sm text-gray-400 mt-3">
+                                    <li className="flex items-start gap-2">
+                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span>Designed and developed a Corporate AI Assistant (Agentic RAG System) using Large Language Models (LLM) and LangChain</span>
+                                    </li>
+                                    <li className="flex items-start gap-2">
+                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span>Integrated YTÜ Modern-BERT-TR embedding model with FAISS vector database for accurate semantic search on corporate reports</span>
+                                    </li>
+                                    <li className="flex items-start gap-2">
+                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span>Engineered autonomous Tool Calling capabilities, allowing the AI to logically route queries to external tools</span>
+                                    </li>
+                                    <li className="flex items-start gap-2">
+                                        <span className="text-green-400 mt-1">▸</span>
+                                        <span>Conducted extensive literature reviews via Gemini Deep Research, compiling 30+ pages on RAG and LLMs</span>
+                                    </li>
+                                </ul>
+                            </div>
                             <div>
                                 <div className="flex justify-between items-start mb-2">
                                     <div>
-                                        <h4 className="text-lg font-semibold text-green-300">Software Developer Intern</h4>
-                                        <p className="text-gray-300">Gibrin R&D | TOBB Garaj</p>
+                                        <h4 className="text-lg font-semibold text-green-300">IoT Engineer Intern</h4>
+                                        <p className="text-gray-300">Gibrin Robotics | TOBB Garaj</p>
                                     </div>
-                                    <span className="text-sm text-gray-400">Summer 2024</span>
+                                    <span className="text-sm text-gray-400">Jun 2025 - Sep 2025</span>
                                 </div>
                                 <ul className="space-y-2 text-sm text-gray-400 mt-3">
                                     <li className="flex items-start gap-2">
